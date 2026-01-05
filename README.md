@@ -4,3 +4,7 @@
 ## Demo game brain-even
 
 [![asciicast](https://asciinema.org/a/TwZIvYq5dxe2aYSZ5WSZmdRkH.svg)](https://asciinema.org/a/TwZIvYq5dxe2aYSZ5WSZmdRkH)
+
+## Demo game brain-calc
+
+[![asciicast](https://asciinema.org/a/frHFQb0Dc7mFSb3u7mAozc3PO.svg)](https://asciinema.org/a/frHFQb0Dc7mFSb3u7mAozc3PO)
