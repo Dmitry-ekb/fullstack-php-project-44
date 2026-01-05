@@ -27,7 +27,7 @@ export const getQuestionAndAnswer = () => {
   const question = `${num1} ${operator} ${num2}`
   return {
     question,
-    correctAnswer: String(correctAnswer)
+    correctAnswer: String(correctAnswer),
   }
 }
 
