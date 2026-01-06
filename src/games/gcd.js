@@ -22,6 +22,6 @@ export const getQuestionAndAnswer = () => {
 
   return {
     question,
-    correctAnswer
+    correctAnswer,
   }
 }
