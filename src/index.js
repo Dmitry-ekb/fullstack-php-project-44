@@ -18,11 +18,12 @@ const runGame = (rules, getQuestionAndAnswer) => {
 
     if (userAnswer === correctAnswer) {
       console.log('Correct!')
-    } else {
-      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`)
-      console.log(`Let's try again, ${name}!`)
-      return
+      continue
     }
+    
+    console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`)
+    console.log(`Let's try again, ${name}!`)
+    return
   }
 
   console.log(`Congratulations, ${name}!`)
