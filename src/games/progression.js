@@ -15,13 +15,13 @@ export const getQuestionAndAnswer = () => {
   const start = getRandomNumber(1, 50)
   const step = getRandomNumber(2, 10)
   const hiddenIndex = getRandomNumber(0, progressionLength - 1)
-  
+
   const progression = generateProgression(start, step, progressionLength)
   const hiddenValue = progression[hiddenIndex]
-  
+
   progression[hiddenIndex] = '..'
   const question = progression.join(' ')
-  
+
   return {
     question,
     correctAnswer: String(hiddenValue),
