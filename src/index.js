@@ -1,13 +1,7 @@
 import readlineSync from 'readline-sync'
+import askName from './cli.js'
 
 const roundsCount = 3
-
-const askName = () => {
-  console.log('Welcome to the Brain Games!')
-  const name = readlineSync.question('May I have your name? ')
-  console.log(`Hello, ${name}!`)
-  return name
-}
 
 const runGame = (rules, getQuestionAndAnswer) => {
   const name = askName()
